@@ -1,0 +1,141 @@
+
+/*VISTA MOBILE PANTALLA VERTICAL*/
+@media only screen and (max-width: 767px) {
+    // NAVBAR, AJUSTE PAR QUE NO SE CORTEN LAS LINEAS DE TEXTO
+.col-6{
+    width: 70%;
+}
+
+body {
+    padding-top: 40px;
+}
+h1{
+    font-size: 18px;
+    color: antiquewhite;
+}
+h2{
+    font-size: 0.8em;
+    padding: 5px;
+}
+p{
+	font-size: 13px;
+}
+main{
+    margin-top: 10%;
+}
+    // PROCESS PAGE 
+.flex-container {
+    flex-direction: column;
+    display:flex;
+    align-items:center;
+    flex-wrap:nowrap;
+}
+.flex-items{
+    width:  380px;
+    height: 220px;
+    margin-top:15px;
+    text-align:justify;
+}
+div .procesos p{
+    width: 380px;
+    margin-top: 0px;
+}
+    // DATAVIZ - DEVELOPERS AND WEBDESING PAGES
+section{
+    .image{
+    width: 30%;
+    position: relative;
+    margin-left: 10px;
+}
+.flex-container-desarrollos {
+    flex-direction:column;
+}
+.flex-items-des{
+    width: auto;
+}
+}
+.bajada{
+    display:none;
+}
+    // TEST DIGITAL SOLO SE MUESTRA LA PAGINA PERO NO EL FORMULARIO
+#NoMobile{
+    display: block;
+}
+.content-form-clip{
+    display: none;
+}
+main section .text-content h1{
+    display: none;
+}
+.text-content p{
+    color: black;
+    width: 150px;
+    font-size: 15px;
+}
+    // OCULTO EL FOOTER EN LA VISTA MOBILE
+footer{
+    display: none;
+}
+    // SECTION SOBRE MI
+container .sobremi .fila{
+    flex-direction:column;
+}
+container .sobremi .fila .col{
+    width: 100%;
+}
+// BOTON LOGIN NO SE MUESTRA
+div .login-box{
+    display: none;
+}
+}
+
+/*VISTA TABLETS EN HORIZONTAL Y DESKTOP NORMALES*/
+@media only screen and (min-width: 769px) and (max-width:1312px){
+body {
+    padding-top: 45px;
+}
+h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+    // PROCESS PAGE 
+.flex-items{
+    text-align: center;
+//     width:  380px;
+//     height: 220px;
+//     margin-top:15px;
+//     text-align:justify;
+}
+div .procesos p{
+    width: 900px;
+    margin-top: -100px;
+    margin-left: 110px;
+}
+    // DATAVIZ - DEVELOPERS AND WEBDESING PAGES
+section{
+    .image{
+    width: 60%;
+    position: relative;
+    margin-left: 10px;
+}
+}
+    // TEST DIGITAL
+main{
+.test{
+    height: 0%;
+}
+section .text-content h1{
+    margin:0;
+}
+section .content-form-clip{
+    left:37%;
+}
+section .content-form-clip{
+    width: 190%;
+}
+}
+}

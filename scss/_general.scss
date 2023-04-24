@@ -1,0 +1,72 @@
+
+/*GENERAL STYLES*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  h1{
+    color:#404E63;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  h2{
+    color: antiquewhite;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+  }
+  h3{
+    color:antiquewhite;
+  }
+  h5{
+    color:antiquewhite;
+  }
+
+  .subtitulos{
+    color: #3CFFC6;
+  }
+
+  .bajada{
+    text-align: center;
+  }
+
+  p{
+    color:antiquewhite;
+    font-size: 15px;
+    padding: 15px;
+  }
+  a{
+    text-decoration: none;
+  }
+
+  strong{
+    text-transform: uppercase;
+  }
+  label{
+    color:antiquewhite;
+  }
+  input{
+    color:antiquewhite
+  }
+
+  body{
+    margin:0;
+    background-color: #181D25;
+  }
+  main{
+    margin-top: 120px;
+    padding: 0px;
+  }
+  #NoMobile{
+    display: none;
+  }
+}
+
+/*------------------------------------------------------------------------------
+END GENERAL STYLES
+--------------------------------------------------------------------------------*/
