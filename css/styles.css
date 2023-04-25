@@ -7,23 +7,23 @@
   font-family: "Roboto", sans-serif;
 }
 * h1 {
-  color: #404E63;
+  color: #d2d4c8;
   text-align: center;
   text-transform: uppercase;
   font-weight: bolder;
   font-size: 40px;
 }
 * h2 {
-  color: antiquewhite;
+  color: #3CFFC6;
   text-align: center;
   font-weight: bolder;
   font-size: 30px;
 }
 * h3 {
-  color: antiquewhite;
+  color: #f1faee;
 }
 * h5 {
-  color: antiquewhite;
+  color: #f1faee;
 }
 * .subtitulos {
   color: #3CFFC6;
@@ -32,7 +32,7 @@
   text-align: center;
 }
 * p {
-  color: antiquewhite;
+  color: #f1faee;
   font-size: 15px;
   padding: 15px;
 }
@@ -43,10 +43,10 @@
   text-transform: uppercase;
 }
 * label {
-  color: antiquewhite;
+  color: #f1faee;
 }
 * input {
-  color: antiquewhite;
+  color: #f1faee;
 }
 * body {
   margin: 0;
@@ -72,7 +72,7 @@ nav i {
   width: 300px;
 }
 nav .navbartext {
-  color: rgb(59, 255, 170);
+  color: #3CFFC6;
 }
 
 /*------------------------------------------------------------------------------
@@ -85,7 +85,7 @@ div img {
 div .p-home {
   padding: 5px;
   margin: 0;
-  color: rgb(59, 255, 170);
+  color: #3CFFC6;
   text-transform: uppercase;
 }
 div .flex-container {
@@ -215,7 +215,7 @@ container .inicio .contenido-banner {
 }
 container .inicio .contenido-banner img {
   margin-top: 40px;
-  border: 10px solid #1CB698;
+  border: 10px solid #3CFFC6;
   display: block;
   width: 80%;
   margin: auto;
@@ -230,10 +230,10 @@ container .inicio .contenido-banner h2 {
   font-weight: normal;
 }
 container .inicio .contenido-banner .redes a {
-  color: antiquewhite;
+  color: #f1faee;
   display: inline-block;
   text-decoration: none;
-  border: 1px solid antiquewhite;
+  border: 1px solid #f1faee;
   border-radius: 100%;
   width: 42px;
   height: 42px;
@@ -243,12 +243,12 @@ container .inicio .contenido-banner .redes a {
   transition: 0.3s;
 }
 container .inicio .contenido-banner .redes a:hover {
-  background-color: #1CB698;
+  background-color: #3CFFC6;
 }
 
 container .sobremi {
   background-color: #1e2326;
-  color: antiquewhite;
+  color: #f1faee;
   padding: 50px 20px;
 }
 container .sobremi .contenido-seccion {
@@ -266,7 +266,7 @@ container .sobremi .contenido-seccion p {
   margin-bottom: 20px;
 }
 container .sobremi .contenido-seccion p span {
-  color: #1CB698;
+  color: #3CFFC6;
   font-weight: bold;
 }
 container .sobremi .fila {
@@ -291,7 +291,7 @@ container .sobremi .fila .col ul li strong {
   width: 130px;
 }
 container .sobremi .fila .col ul li span {
-  background-color: #1CB698;
+  background-color: #3CFFC6;
   padding: 3px;
   font-weight: bold;
   border-radius: 5px;
@@ -313,19 +313,19 @@ container .sobremi .fila .col .contenedor-intereses .interes {
   transition: 0.3s;
 }
 container .sobremi .fila .col .contenedor-intereses .interes:hover {
-  background-color: #1CB698;
+  background-color: #3CFFC6;
 }
 container .sobremi .fila .col .contenedor-intereses .interes i {
   font-size: 30px;
   margin-bottom: 10px;
 }
 container .hiper {
-  color: antiquewhite;
+  color: #f1faee;
 }
 container .sobremi button {
   cursor: pointer;
   background-color: transparent;
-  border: 2px solid antiquewhite;
+  border: 2px solid #3CFFC6;
   border-radius: 8px;
   width: fit-content;
   display: block;
@@ -341,7 +341,7 @@ container .sobremi button .overlay {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #1CB698;
+  background-color: #3CFFC6;
   z-index: -1;
   transition: 1s;
   border-radius: 8px;
@@ -355,7 +355,7 @@ container .sobremi button:hover .overlay {
 /*There are classes that will be added dynamically by javascript*/
 container .skills {
   background-color: #252A2E;
-  color: antiquewhite;
+  color: #f1faee;
   padding: 10px 20px;
 }
 container .skills .contenido-seccion {
@@ -391,7 +391,7 @@ container .skills .skill .barra-skill {
   margin-bottom: 30px;
 }
 container .skills .skill .progreso {
-  background-color: #1CB698;
+  background-color: #3CFFC6;
   position: absolute;
   top: 0;
   left: 0;
@@ -401,7 +401,7 @@ container .skills .skill .barra-skill span {
   position: absolute;
   height: 40px;
   width: 40px;
-  background-color: #1CB698;
+  background-color: #3CFFC6;
   border-radius: 50px;
   line-height: 40px;
   text-align: center;
@@ -412,6 +412,7 @@ container .skills .skill .barra-skill span {
 container .skills .skill .javascript {
   width: 0%;
   animation: 2s javascript forwards;
+  color: #081c15;
 }
 @keyframes javascript {
   0% {
@@ -424,6 +425,7 @@ container .skills .skill .javascript {
 container .skills .skill .htmlcss {
   width: 0%;
   animation: 2s htmlcss forwards;
+  color: #081c15;
 }
 @keyframes htmlcss {
   0% {
@@ -436,6 +438,7 @@ container .skills .skill .htmlcss {
 container .skills .skill .photoshop {
   width: 0%;
   animation: 2s photoshop forwards;
+  color: #081c15;
 }
 @keyframes photoshop {
   0% {
@@ -448,6 +451,7 @@ container .skills .skill .photoshop {
 container .skills .skill .figma {
   width: 0%;
   animation: 2s figma forwards;
+  color: #081c15;
 }
 @keyframes figma {
   0% {
@@ -460,6 +464,7 @@ container .skills .skill .figma {
 container .skills .skill .ilustrator {
   width: 0%;
   animation: 2s ilustrator forwards;
+  color: #081c15;
 }
 @keyframes ilustrator {
   0% {
@@ -472,6 +477,7 @@ container .skills .skill .ilustrator {
 container .skills .skill .sql {
   width: 0%;
   animation: 2s sql forwards;
+  color: #081c15;
 }
 @keyframes sql {
   0% {
@@ -484,6 +490,7 @@ container .skills .skill .sql {
 container .skills .skill .tableau {
   width: 0%;
   animation: 2s tableau forwards;
+  color: #081c15;
 }
 @keyframes tableau {
   0% {
@@ -496,6 +503,7 @@ container .skills .skill .tableau {
 container .skills .skill .powerbi {
   width: 0%;
   animation: 2s powerbi forwards;
+  color: #081c15;
 }
 @keyframes powerbi {
   0% {
@@ -508,6 +516,7 @@ container .skills .skill .powerbi {
 container .skills .skill .datamesh {
   width: 0%;
   animation: 2s datamesh forwards;
+  color: #081c15;
 }
 @keyframes datamesh {
   0% {
@@ -520,6 +529,7 @@ container .skills .skill .datamesh {
 container .skills .skill .proyect {
   width: 0%;
   animation: 2s proyect forwards;
+  color: #081c15;
 }
 @keyframes proyect {
   0% {
@@ -567,7 +577,7 @@ container .portfolio .galeria .proyecto .overlay {
   width: 100%;
   height: 100%;
   text-align: center;
-  background: linear-gradient(rgba(28, 182, 152, 0.8), rgba(28, 182, 152, 0.8));
+  background: linear-gradient(#3CFFC6, #3CFFC6);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -640,14 +650,14 @@ section .login-box .user-box input:focus ~ label,
 section .login-box .user-box input:valid ~ label {
   top: -20px;
   left: 0;
-  color: #14ef82;
+  color: #3CFFC6;
   font-size: 12px;
 }
 section .login-box form a {
   position: relative;
   display: inline-block;
   padding: 10px 20px;
-  color: #14ef82;
+  color: #3CFFC6;
   font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
@@ -657,10 +667,10 @@ section .login-box form a {
   letter-spacing: 4px;
 }
 section .login-box a:hover {
-  background: #14ef82;
+  background: #3CFFC6;
   color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 5px #14ef82, 0 0 25px #14ef82, 0 0 50px #14ef82, 0 0 100px #14ef82;
+  box-shadow: 0 0 5px #3CFFC6, 0 0 25px #3CFFC6, 0 0 50px #3CFFC6, 0 0 100px #3CFFC6;
 }
 section .login-box a span {
   position: absolute;
@@ -671,7 +681,7 @@ section .login-box a span:nth-child(1) {
   left: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(90deg, transparent, #14ef82);
+  background: linear-gradient(90deg, transparent, #3CFFC6);
   animation: btn-anim1 1s linear infinite;
 }
 @keyframes btn-anim1 {
@@ -687,7 +697,7 @@ section .login-box a span:nth-child(2) {
   right: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(180deg, transparent, #14ef82);
+  background: linear-gradient(180deg, transparent, #3CFFC6);
   animation: btn-anim2 1s linear infinite;
   animation-delay: 0.25s;
 }
@@ -704,7 +714,7 @@ section .login-box a span:nth-child(3) {
   right: -100%;
   width: 100%;
   height: 2px;
-  background: linear-gradient(270deg, transparent, #14ef82);
+  background: linear-gradient(270deg, transparent, #3CFFC6);
   animation: btn-anim3 1s linear infinite;
   animation-delay: 0.5s;
 }
@@ -721,7 +731,7 @@ section .login-box a span:nth-child(4) {
   left: 0;
   width: 2px;
   height: 100%;
-  background: linear-gradient(360deg, transparent, #14ef82);
+  background: linear-gradient(360deg, transparent, #3CFFC6);
   animation: btn-anim4 1s linear infinite;
   animation-delay: 0.75s;
 }
@@ -819,24 +829,24 @@ main section form .form-group {
   margin-bottom: 40px;
   display: flex;
   flex-direction: column;
-  color: antiquewhite;
+  color: #f1faee;
 }
 main section form .form-group .input {
-  color: antiquewhite;
+  color: #f1faee;
   font-size: 16px;
   font-weight: 300;
   max-width: 100%;
   min-height: 40px;
   background: transparent;
   border: none;
-  border-bottom: 1px solid rgba(108, 223, 14, 0.8);
+  border-bottom: 1px solid #3CFFC6;
 }
 main section form .form-group .input:focus {
   outline: none;
-  border-bottom: 1px solid antiquewhite;
+  border-bottom: 1px solid #f1faee;
 }
 main section form .form-group .input option {
-  color: antiquewhite;
+  color: #f1faee;
   background-color: hsl(229, 85%, 67%);
 }
 main section form .form-group .radio {
@@ -858,7 +868,7 @@ END FORM DIGITAL TEST
 ------------------------------------------------------------------*/
 /*FOOTER*/
 footer p {
-  color: white;
+  color: #f1faee;
   text-align: left;
   padding: 10px 15px;
   margin: 0;
@@ -879,7 +889,7 @@ END FOOTER
   }
   h1 {
     font-size: 18px;
-    color: antiquewhite;
+    color: #f1faee;
   }
   h2 {
     font-size: 0.8em;
