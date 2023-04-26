@@ -87,6 +87,21 @@ container .sobremi .fila .col{
 div .login-box{
     display: none;
 }
+// PAGE 404 ERROR
+.error__content {
+    position: static;
+    margin: 0 auto;
+    transform: none;
+    padding-top: 300px;
+  }
+  .error {
+    padding-top: 0;
+    padding-bottom: 100px;
+    height: 100vh;
+  }
+p#er{
+width: 50%;
+}
 }
 
 /*VISTA TABLETS EN HORIZONTAL Y DESKTOP NORMALES*/
@@ -105,10 +120,6 @@ h2{
     // PROCESS PAGE 
 .flex-items{
     text-align: center;
-//     width:  380px;
-//     height: 220px;
-//     margin-top:15px;
-//     text-align:justify;
 }
 div .procesos p{
     width: 900px;
@@ -138,4 +149,15 @@ section .content-form-clip{
     width: 190%;
 }
 }
+// PAGE 404 ERROR
+.error__content {
+    top: 55%;
+  }
+  .message__title {
+    font-size: 3.5rem;
+  }
+  
+p#er{
+    width: 30%;
+    }
 }
